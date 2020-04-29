@@ -48,13 +48,13 @@ storiesOf('Card', module)
       subtitle: 'Well whats up'
     }
   }))
-  .add(
-    'with notes',
-    withNotes('notes')(() => ({
-      component: CardComponent,
-      props: {}
-    }))
-  )
+  // .add(
+  //   'with notes',
+  //   withNotes('notes')(() => ({
+  //     component: CardComponent,
+  //     props: {}
+  //   }))
+  // )
   .add('with action', () => ({
     component: CardComponent,
     props: {
