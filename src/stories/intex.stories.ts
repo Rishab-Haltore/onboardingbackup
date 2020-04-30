@@ -25,6 +25,10 @@ import { FormControl, Validators, FormGroup ,FormBuilder } from '@angular/forms'
 import { CardComponent } from 'src/app/card/card.component';
 import { SignInComponent } from 'src/app/sign-in/sign-in.component';
 import { SignUpComponent } from 'src/app/sign-up/sign-up.component';
+import {AesEncryptComponent} from 'src/app/aes-encrypt/aes-encrypt.component';
+import { HeaderComponent } from 'src/app/header/header.component';
+import { HeaderSidenavComponent } from 'src/app/header-sidenav/header-sidenav.component';
+
 
 
 
@@ -72,3 +76,17 @@ storiesOf('Card', module)
     component: SignUpComponent,
     props: {}
   }))
+
+
+
+  storiesOf('Header', module)
+  .add('full page', () => ({
+    component: HeaderComponent,
+    props: {}
+  }))
+  storiesOf('Header with side nav', module)
+  .add('full page', () => ({
+    component: HeaderSidenavComponent,
+    props: {}
+  }))
+

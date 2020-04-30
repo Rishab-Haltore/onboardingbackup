@@ -1,0 +1,18 @@
+.nav-tabs .nav-link{
+	border: black 10px solid transparent !important;	
+	border-top-left-radius: 0rem !important;
+	border-top-right-radius: 0rem !important;
+}
+
+.nav-link.active {
+	border-color: #ffffff #ffffff #ffffff #151350 !important;
+	color: #151350 !important;
+	font-size: 1rem !important;
+}
+
+span.li  {display: list-item; 
+  margin-left: 2em;
+  font-size: 0.9rem;
+  font-family:'Ubuntu',sans-serif;
+
+}

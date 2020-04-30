@@ -33,6 +33,8 @@ import { DataService } from './data.service';
 import { CardComponent } from './card/card.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { PersonalInsuranceComponent } from './personal-insurance/personal-insurance.component';
+import { HeaderComponent } from './header/header.component';
+import { HeaderSidenavComponent } from './header-sidenav/header-sidenav.component';
 // import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
@@ -53,7 +55,13 @@ import { PersonalInsuranceComponent } from './personal-insurance/personal-insura
      SignUpComponent,
     
 
-     PersonalInsuranceComponent
+     PersonalInsuranceComponent,
+    
+
+     HeaderComponent,
+    
+
+     HeaderSidenavComponent
   ],
   exports: [
 
